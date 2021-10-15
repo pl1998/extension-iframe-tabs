@@ -1,5 +1,5 @@
 {
-    "name": "pl1998/extension-iframe-tabs",
+    "name": "changzhong/extension-iframe-tabs",
     "description": "dcat-admin extension iframe-tabs",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "dcat/laravel-admin": "^1.7.0"
+        "dcat/laravel-admin": "*"
     },
     "autoload": {
         "psr-4": {

@@ -1,8 +1,6 @@
 dcat-admin iframe多窗口扩展
 ======
 
-* dcatadmin版本需要1.7.0以上
-
 1.安装扩展
 ```
 composer require changzhong/extension-iframe-tabs
@@ -31,16 +29,24 @@ composer require changzhong/extension-iframe-tabs
     ],
 ```
 
-5.清除缓存
-```shell script
-php artisan cache:clear;
-php artisan view:clear;
+4.在resources/lang/ah-CN/admin.php中添加语言包
 ```
-6.打开链接 你的域名/admin即可
+    'iframe_tabs' => [
+        'oprations' => '页签操作',
+        'refresh_current' => '刷新当前',
+        'close_current' => '关闭当前',
+        'close_all' => '关闭全部',
+        'close_other' => '关闭其他',
+        'open_in_new' => '新窗口打开',
+        'open_in_pop' => '弹出窗打开',
+        'scroll_left' => '滚动到最左',
+        'scroll_right' => '滚动到最右',
+        'scroll_current' => '滚动到当前',
+        'goto_login' => '登录超时，正在跳转登录页面...'
+    ],
+```
 
-
-给a标签添加class=pop-link为弹窗打开，添加 class=iframe-link为新添加iframe窗口
-
+5.打开链接 你的域名/admin即可
 
 
 

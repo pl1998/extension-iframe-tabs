@@ -263,7 +263,7 @@ body,
 
 @media (min-width: 768px) {
     body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header{
-        /*margin-left: 0;*/
+        margin-left: 0;
     }
 }
 
@@ -275,25 +275,3 @@ body.dark-mode .layui-layer.layui-layer-loading, body .layui-layer.layui-layer-l
     box-shadow: none !important;
     background: none !important;
 }
-
-.bookmark-wrapper{
-    margin-top: 0;
-    height: 50px;
-}
-
-.navbar-container{
-    height: 50px;
-}
-
-/* 搜索框样式 */
-.search-menu-container{
-    position: relative
-}
-
-.search-menu-container a{
-    position: absolute;
-    right: 10px;
-    z-index: 9;
-    top:8px;
-}
-
