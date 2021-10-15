@@ -1,0 +1,27 @@
+{
+    "name": "pl1998/extension-iframe-tabs",
+    "description": "dcat-admin extension iframe-tabs",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/changzhong/extension-iframe-tabs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chang",
+            "email": "632867905@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "^1.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Extension\\IframeTabs\\": "src/"
+        },
+         "files": [
+            "src/bootstrap.php"
+        ]
+    }
+
+}
